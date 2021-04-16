@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <meta charset="utf-8">
+  <head>
+<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="img/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<title>Home</title>
+  </head>
+
+  <body class="bg-blak">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="navbar-brand" href="index.html">play script</a>
+      <a class="btn btn-outline-secondary text-success maiusc" data-toggle="modal" data-target="#personalarea" >area personale</a>
+      <ul class="navbar-nav ml-auto">
+        <input type="button" class="btn btn-outline-secondary text-success mr-3" data-toggle="modal" data-target="#Singup" value="Sing up">
+        <input type="button" class="btn btn-outline-secondary text-success" data-toggle="modal" data-target="#Login" value="Login">
+        <a class="btn btn-outline-secondary text-success" href="giochi\gioco-1.html"> <input type="button" class=" btn btn-outline text-success" value="1°gioco"> </a>
+      </ul>
+    </nav>
+
+    <div class="modal" id="Singup">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="container-fluid py-3 bg-dark text-success ">
+            <input type="button" class="close btn btn-outline-secondary text-success mb-2" data-dismiss="modal" value="&times;">
+            <form id="signUpForm">
+              <div class="form-group pt-2">
+              <label for="Same">Nome:</label>
+                <input type="text" class="form-control" placeholder="Inserisci il Nome" id="email">
+                <label for="Surname">cognome:</label>
+                <input type="text" class="form-control" placeholder="Inserisci il cognome" id="email">
+              </div>
+              <div class="form-group pt-2">
+                <label for="email">Indirizzo Email:</label>
+                <input type="email" class="form-control" placeholder="Inserisci l'email" id="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" placeholder="Inserisci la password" id="pwd">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Repeat Password:</label>
+                <input type="password" class="form-control" placeholder="Reinserisci la password" id="pwd2">
+              </div>
+              <input type="submit" class="btn btn-outline-secondary text-success" value="invia" id="btnSubmit" >
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="Login">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="container-fluid py-3 bg-dark text-success ">
+            <input type="button" class="close btn btn-outline-secondary text-success mb-2" data-dismiss="modal" value="&times;">
+            <form>
+              <div class="form-group pt-2">
+                <label for="email">Indirizzo Email:</label>
+                <input type="email" class="form-control" placeholder="Inserisci l'email" id="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" placeholder="Inserisci la password" id="pwd">
+              </div>
+              <input type="submit" class="btn btn-outline-secondary text-success" data-dismiss="modal" data-toggle="modal" data-target="#personalarea" value="invia">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal bg-blak" id="personalarea">
+      <div class="mb-dark">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <a class="navbar-brand link-of" href="index.html">play script</a>
+          <input style="text-transform: uppercase" type="button" class="btn btn-outline-secondary text-success mb-2" data-dismiss="modal" value="home">
+        </nav>
+      </div>
+      <div class="jumbotron " style="background-color:#181818">
+        <h2 class="t-centro text-success">area personale</h2>
+      </div>
+      <div class=" jumbotron bg-dark friend">
+        <input type="image" src="img\p.png" data-toggle="modal" data-target="#card" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span><br>
+        <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+        <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+        <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+        <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+        <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+        <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+        <button type="button" class="btn-success aggiungi"> <p class="piu">&#43;</p> </button>
+      </div>
+
+
+    <div class="jumbotron bg-dark chat ">
+      <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+      <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+      <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+      <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+      <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+      <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+      <div class="jumbotron mes inv">
+        <div class="row ">
+          <input type="text" class="col-11 sep" placeholder="manda un messagio">
+          <input type="image" src="img/aer.png"  class="col sep" style="width:60px;height:60px" >
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron bg-dark cons ">
+      <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+      <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+      <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+      <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+      <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+      <div><input type="image" src="img\p.png" style="max-width:30px; border-radius:50%"><span class="text-primary">prova</span></div>
+    </div>
+  </div>
+
+    <link rel="stylesheet" href="css\styles.css">
+    <script src="js\functions.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

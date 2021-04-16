@@ -1,0 +1,81 @@
+.bg-blak{
+  background: #181818;
+}
+.link-of:link, .link-of:active, .link-of:visited, .link-of:hover {
+  background:none!important;
+  border:none;
+  font-family:arial,sans-serif;
+  color:#ffffff;
+  cursor:pointer;
+  font-size: 22px;
+  margin-top: 8px;
+  margin-left: 14px;
+}
+.mb-dark{
+  background-color: #343a40;
+  margin:   0px;
+}
+.t-centro{text-align: center;}.t-sinistra{ text-align: left;}.t-destra{text-align: right;}
+h2{text-transform: uppercase;}
+.friend {
+    position: relative;
+    z-index: 10;
+    left: 0px;
+    top: 0px;
+    max-width: 400px;
+    border: 1px dotted #bbb;
+    max-height: 700px;
+    margin-top: -10px;
+}
+.chat {
+    position: relative;
+    z-index: 10;
+    left: 460px;
+    top: -720px;
+    max-width: 1000px;
+    border: 1px dotted #bbb;
+    max-height: 700px;
+    margin-top: -10px;
+    align-items: center;
+}
+.cons{
+  position: relative;
+  z-index: 10;
+  left: 1510px;
+  top: -1445px;
+  max-width: 500px;
+  border: 1px dotted #bbb;
+  border-bottom: 10px;
+  max-height: 700px;
+  margin-top: -10px;
+  align-items: center;
+}
+.aggiungi{
+  margin-top: 8cm;
+  margin-left: 8cm;
+  width:30px;
+  height: 30px;
+  border-radius:50%;
+  font-size: 51px;
+}
+.piu{
+  margin-left: -13px;
+  margin-top: -30px;
+}
+.sep{
+  padding-top: .75rem;
+padding-bottom: .75rem;
+background-color: rgba(0,102,204,.75);
+border: 1px solid #06c;
+color: #fff;
+}
+.mes{
+  position: relative;
+  margin-top: 6cm;
+}
+.inv{
+  background: none !important;
+}
+.maiusc{
+  text-transform: uppercase;
+}
