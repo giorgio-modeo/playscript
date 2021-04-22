@@ -1,5 +1,7 @@
+
 .bg-blak{
   background: #181818;
+
 }
 .link-of:link, .link-of:active, .link-of:visited, .link-of:hover {
   background:none!important;
@@ -15,41 +17,7 @@
   background-color: #343a40;
   margin:   0px;
 }
-.t-centro{text-align: center;}.t-sinistra{ text-align: left;}.t-destra{text-align: right;}
-h2{text-transform: uppercase;}
-.friend {
-    position: relative;
-    z-index: 10;
-    left: 0px;
-    top: 0px;
-    max-width: 400px;
-    border: 1px dotted #bbb;
-    max-height: 700px;
-    margin-top: -10px;
-}
-.chat {
-    position: relative;
-    z-index: 10;
-    left: 460px;
-    top: -720px;
-    max-width: 1000px;
-    border: 1px dotted #bbb;
-    max-height: 700px;
-    margin-top: -10px;
-    align-items: center;
-}
-.cons{
-  position: relative;
-  z-index: 10;
-  left: 1510px;
-  top: -1445px;
-  max-width: 500px;
-  border: 1px dotted #bbb;
-  border-bottom: 10px;
-  max-height: 700px;
-  margin-top: -10px;
-  align-items: center;
-}
+.t-centro{text-align: center;}.t-destra{text-align: right;}
 .aggiungi{
   margin-top: 8cm;
   margin-left: 8cm;
@@ -78,4 +46,8 @@ color: #fff;
 }
 .maiusc{
   text-transform: uppercase;
+}
+.icon{
+  max-width:30px;
+  border-radius:50%
 }

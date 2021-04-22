@@ -1,0 +1,30 @@
+.friend{position: relative;width: 23%;top: 10px;}
+.chat{width: 53%;left: 25%;}
+.cons{width: 20%;left: 80%;}
+@media screen and(min-width: 480px){
+  /*****************************/
+  /***********tablets***********/
+  /*****************************/
+
+}
+@media screen and(min-width: 768px){
+  /******************************/
+  /***********portable***********/
+  /******************************/
+
+}
+@media screen and (min-width: 1024px) {
+  /*****************************/
+  /***********desktop***********/
+  /*****************************/
+
+}
+@media screen and (min-width: 1280px) {
+  /************************/
+  /***********tv***********/
+  /************************/
+.chat .friend .cons{max-height: 805px; height: 805px;min-height: 805px;}
+.chat {position: relative;bottom: 695px;min-height: 705px;}
+.cons{position: relative;bottom: 1400px;min-height: 705px;}
+.friend{min-height: 705px}
+}
